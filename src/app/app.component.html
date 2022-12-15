@@ -1,0 +1,21 @@
+
+<mat-drawer-container style="height: 100%;" class="example-container" autosize>
+
+  <mat-drawer #drawer class="sidenav" mode="side">
+    <app-sidebar-content></app-sidebar-content>
+  </mat-drawer>
+
+  <mat-toolbar class="toolbar">
+    <button mat-icon-button class="example-icon" (click)="drawer.toggle()" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>SUPER PHPmyAdmin</span>
+  </mat-toolbar>
+
+  <!-- Contenu de la page -->
+  <mat-card class="main_card">
+    <mat-card-content>
+      <app-home></app-home> <!-- Include de notre composant -->
+    </mat-card-content>
+  </mat-card>
+</mat-drawer-container>
