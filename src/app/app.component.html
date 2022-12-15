@@ -5,7 +5,7 @@
     <app-sidebar-content></app-sidebar-content>
   </mat-drawer>
 
-  <mat-toolbar class="toolbar">
+  <mat-toolbar color="primary" class="toolbar">
     <button mat-icon-button class="example-icon" (click)="drawer.toggle()" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
@@ -15,7 +15,8 @@
   <!-- Contenu de la page -->
   <mat-card class="main_card">
     <mat-card-content>
-      <app-home></app-home> <!-- Include de notre composant -->
+      <!-- <app-home></app-home>  Include de notre composant -->
+      <app-table></app-table>
     </mat-card-content>
   </mat-card>
 </mat-drawer-container>

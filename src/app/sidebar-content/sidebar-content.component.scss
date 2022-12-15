@@ -5,6 +5,19 @@
   }
   .side_nav_card{
 
-    margin: 2%;
+    background: #303030;
+    margin: 3%;
+
+    .list_table_btn{
+
+      color: gray;
+      font-size: 5px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .add_button{
+
+      text-align: center;
+    }
   }
 }

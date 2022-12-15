@@ -8,12 +8,14 @@ import { MaterialModule } from "./material-module";
 import {FormsModule} from "@angular/forms";
 import { HomeComponent } from './home/home.component';
 import { SidebarContentComponent } from './sidebar-content/sidebar-content.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SidebarContentComponent
+    SidebarContentComponent,
+    TableComponent
   ],
   imports: [
     MaterialModule,
